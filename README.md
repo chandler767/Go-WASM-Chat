@@ -1,5 +1,5 @@
-# Go Web Assembly Chat
-Example of a realtime Golang Web Assembly chat app using PubNub.
+# Go WebAssembly Chat
+Example of a realtime Golang WebAssembly chat app using PubNub.
 
 ### [Try the Chat Demo](https://wasm.chandlermayo.com)
 

@@ -1,10 +1,5 @@
 # Go Web Assembly Chat
-Example of a realtime Golang Web Assembly chat app using PubNub in a minimal amount of code.
-
-
-# JavaScript Simple Chat
-
-This project is a demo showing how you can create a chat app using PubNub's Go SDK with Web Assembly.
+Example of a realtime Golang Web Assembly chat app using PubNub.
 
 ### [Try the Chat Demo](https://wasm.chandlermayo.com)
 

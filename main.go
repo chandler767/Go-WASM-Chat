@@ -6,18 +6,18 @@ import (
 )
 
 func main() {
-	c := make(chan struct{}, 0)   // Keep alive.
+	c := make(chan struct{}, 0) // Keep alive.
 	subscribed := make(chan bool) // Wait until PubNub is connected.
 
 	config := pubnub.NewConfig()
-	config.PublishKey = "pub-c-2af91346-bb0a-4bd6-89b3-d0daf9838bd9"   // YOUR PUBNUB PUBLISH KEY HERE.
-	config.SubscribeKey = "sub-c-ca7555cc-d8b1-11e9-aa3a-6edd521294c5" // YOUR PUBNUB SUBSCRIBE KEY HERE.
-	channel := "chat"                                                  // Chat channel.
+	config.PublishKey = "PUBLISH_KEY_HERE" // YOUR PUBNUB PUBLISH KEY HERE.
+	config.SubscribeKey = "SUBSCRIBE_KEY_HERE" // YOUR PUBNUB SUBSCRIBE KEY HERE.
+	channel := "chat" // Chat channel.
 	pn := pubnub.NewPubNub(config)
 
-	box := js.Global().Get("document").Call("getElementById", "box")     // Output.
+	box := js.Global().Get("document").Call("getElementById", "box") // Output.
 	input := js.Global().Get("document").Call("getElementById", "input") // Input.
-	send := js.Global().Get("document").Call("getElementById", "send")   // Send button.
+	send := js.Global().Get("document").Call("getElementById", "send") // Send button.
 
 	listener := pubnub.NewListener() // Create a listener and subscribe.
 	go func() {

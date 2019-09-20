@@ -10,8 +10,8 @@ func main() {
 	subscribed := make(chan bool) // Wait until PubNub is connected.
 
 	config := pubnub.NewConfig()
-	config.PublishKey = "demo" // YOUR PUBNUB PUBLISH KEY HERE.
-	config.SubscribeKey = "demo" // YOUR PUBNUB SUBSCRIBE KEY HERE.
+	config.PublishKey = "YOUR_PUBLISH_KEY_HERE" // YOUR PUBNUB PUBLISH KEY HERE.
+	config.SubscribeKey = "YOUR_SUBSCRIBE_KEY_HERE" // YOUR PUBNUB SUBSCRIBE KEY HERE.
 	channel := "chat" // Chat channel.
 	pn := pubnub.NewPubNub(config)
 

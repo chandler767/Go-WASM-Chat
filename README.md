@@ -9,7 +9,7 @@ PubNub’s primary product is a [realtime publish/subscribe messaging API](https
 
 <!--## Build Your Own JavaScript and Golang WebAssembly Chat
 
-Want to learn more about this project or build a clone from scratch? [Check out the tutorial](https://www.pubnub.com/blog/realtime-live-chat-application-javascript-pubnub-10-lines-of-code/).
+Want to learn more about this project or build a clone from scratch? [Check out the tutorial](https://www.pubnub.com/blog/[Link]/?devrel_gh=Go-WASM-Chat).
 
 <a href="https://www.pubnub.com/blog/[LINK]/?devrel_gh=Go-WASM-Chat">
     <img alt="PubNub Blog" src="https://i.imgur.com/aJ927CO.png" width=260 height=98/>
